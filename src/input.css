@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.thirdlayerbox{
+    @apply h-[450px] flex flex-col justify-center w-[90%] mx-auto lg:w-[50%] lg:px-10
+}
+.fourthlayerbox{
+    @apply w-[200px] h-[200px] rounded-full shadow-md shadow-gray-600
+}
